@@ -1,0 +1,7 @@
+/region_growing/cmake-build-debug/*
+/region_growing/build/*
+/region_growing/.idea/*
+/edge_detector/cmake-build-debug/*
+/edge_detector/build/*
+/edge_detector/.idea/*
+/.idea/*

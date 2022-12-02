@@ -1,0 +1,27 @@
+TP2 - détection de contours
+
+1. Convolution
+
+2 directions ou 4 directions
+direction du gradient orthogonale à la direction du contour
+
+Masque générique
+Revoir les conditions sur un maque (filtre) différentiel
+
+Seuillage des valeurs 
+(ne pas effacer les valeurs dont on veut se débarasser, elles seront peut être utiles plus tard)
+Normaliser à [0;255]
+
+Seuillage par histérésis
+
+Pour aller plus loin : séléction des maxima locaux
+    si le point n'est pas max dans son propre diagrant on le met de côté
+
+
+2 résultats:
+- visualisation (contour, binaire, soit il est présent soit non), si le temps, couleur par direction
+- direction/amplitude du gradient
+
+Seuillage par hysteresis 
+- premier seuillage avec une valeur exigente (g >= seuil_haut => countour)
+- avec un seuil plus faibel (au choix)(g >= seuil bas => contour si dans le voisinage il existe au moins un pts qui appartien au contour du premier seuillage)

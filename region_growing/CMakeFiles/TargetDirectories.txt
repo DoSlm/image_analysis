@@ -1,0 +1,3 @@
+/home/dorian/Documents/analyse-image-2022/region_growing/CMakeFiles/region_growing.dir
+/home/dorian/Documents/analyse-image-2022/region_growing/CMakeFiles/edit_cache.dir
+/home/dorian/Documents/analyse-image-2022/region_growing/CMakeFiles/rebuild_cache.dir
